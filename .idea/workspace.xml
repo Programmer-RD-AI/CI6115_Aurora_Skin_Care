@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88d2aed-9f57-421a-8c2b-f6a96b77a85e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/uml/Enhanced_UML_Class_Diagram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/enums/TreatmentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/TreatmentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/CLI/AppointmentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/CLI/AppointmentView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/GUI/AppointmentGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/GUI/AppointmentGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/GUI/InvoiceGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/GUI/InvoiceGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/GUI/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/GUI/MainGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/uml/Enhanced_UML_Class_Diagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/uml/Enhanced_UML_Class_Diagram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/uml/Final_Enhanced_UML_Diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/uml/Final_Enhanced_UML_Diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/uml/Final_Enhanced_UML_Diagram.png.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/uml/Final_Enhanced_UML_Diagram.png.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
