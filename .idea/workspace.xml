@@ -5,91 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88d2aed-9f57-421a-8c2b-f6a96b77a85e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/AppointmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/AppointmentAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/AppointmentNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/InvalidAppointmentDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/InvalidAppointmentTimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/InvalidTreatmentIDException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/DermatologistModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/TimeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Treatment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/enums/Dermatologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/enums/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/enums/TreatmentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/interfaces/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/interfaces/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/AppointmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/DermatologistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/InvoiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/PatientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/config/ConfigLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/config/appConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/AppointmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/LoggerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/CLI/AppointmentView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/CLI/DermatologistView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/CLI/GeneralView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/CLI/InvoiceView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/CLI/PatientView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/CLI/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/CLI/TimeView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/CLI/TreatmentView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/GUI/AppointmentGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/GUI/InvoiceGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/GUI/MainGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/GUI/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CI6115_Clinic_Application_Manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/uml/Enhanced_UML_Class_Diagram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/.idea/java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/.idea/aurora.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/model/Appointment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/model/Dermatologist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/model/Invoice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/model/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/model/Treatment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/out/production/aurora/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/out/production/aurora/.idea/aurora.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/out/production/aurora/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/out/production/aurora/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/out/production/aurora/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/out/production/aurora/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/service/AppointmentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/service/DermatologistService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/service/InvoiceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/service/PatientService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/service/PersonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/service/TreatmentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/util/PDFGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/util/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/util/availability/Availability.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aurora/util/availability/AvailabilityDataType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/enums/TreatmentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/TreatmentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/CLI/AppointmentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/CLI/AppointmentView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/GUI/AppointmentGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/GUI/AppointmentGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/GUI/InvoiceGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/GUI/InvoiceGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/GUI/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/GUI/MainGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +31,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -116,25 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/ranuga/Programming/Projects/All/CI6115_Clinic_Application_Manager",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "promo.javascript"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ranuga/Programming/Projects/All/CI6115_Clinic_Application_Manager&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;promo.javascript&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="CI6115_Clinic_Application_Manager" />
+      <module name="clinic-application-manager" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

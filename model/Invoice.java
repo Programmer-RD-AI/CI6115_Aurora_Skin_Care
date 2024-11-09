@@ -39,8 +39,8 @@ public class Invoice {
      * Makes a payment towards the outstanding invoice amount.
      * @param amount The amount to be paid
      */
-    public void makePayment(double amount) {
-        if (amount <= 0) {
+    public void makePayment(double paymentAmount) {
+        if (paymentAmount <= 0) {
             throw new IllegalArgumentException("Payment amount must be positive.");
         }
 
@@ -48,18 +48,25 @@ public class Invoice {
             throw new IllegalStateException("The invoice has already been paid in full.");
         }
 
-        if (amount > totalAmount) {
+        // Calculate the outstanding balance
+        double outstandingBalance = this.totalAmount - this.amountPaid;
+
+        // Ensure the payment does not exceed the outstanding balance
+        if (paymentAmount > outstandingBalance) {
             throw new IllegalArgumentException("Payment exceeds the outstanding balance.");
         }
 
-        // Update the paid amount and reduce the balance
-        this.amountPaid += amount;
-        this.totalAmount -= amount;
+        // Update the amount paid
+        this.amountPaid += paymentAmount;
 
         // Check if the invoice is fully paid
-        if (this.totalAmount <= 0) {
+        if (this.amountPaid >= this.totalAmount) {
             this.isPaid = true;
+            this.amountPaid = this.totalAmount;  // Ensure that amountPaid equals totalAmount when fully paid
         }
+
+        // If it's not fully paid, the remaining balance is calculated.
+        // This happens automatically due to the way the class works, no need for further action.
     }
 
     /**

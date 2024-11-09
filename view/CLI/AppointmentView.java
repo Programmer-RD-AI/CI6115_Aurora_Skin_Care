@@ -153,17 +153,28 @@ public class AppointmentView {
 
     private void processInvoicePayment(Appointment appointment, Invoice invoice) {
         if (!invoice.isPaid()) {
-            System.out.println("Invoice outstanding balance: " + (invoice.getTotalAmount()-invoice.getAmountPaid()));
+            double outstandingBalance = invoice.getTotalAmount() - invoice.getAmountPaid();
+            System.out.println("Invoice outstanding balance: " + outstandingBalance);
+
             System.out.print("Enter amount to pay: ");
             double paymentAmount = scanner.nextDouble();
             scanner.nextLine();  // Clear the buffer
 
+            // Ensure the payment does not exceed the outstanding balance
+            if (paymentAmount > outstandingBalance) {
+                System.out.println("Payment exceeds the outstanding balance. Adjusting payment.");
+                paymentAmount = outstandingBalance;  // Cap the payment to the outstanding balance
+            }
+
+            // Process the payment
             invoice.makePayment(paymentAmount);
+
+            // Check if the invoice is paid after the payment
             if (invoice.isPaid()) {
-                appointment.setStatus("Completed");
+                appointment.setStatus("COMPLETED");
                 System.out.println("Invoice fully paid. Appointment marked as complete.");
             } else {
-                System.out.println("Partial payment made. Outstanding balance: " + (invoice.getTotalAmount()-invoice.getAmountPaid()));
+                System.out.println("Partial payment made. Outstanding balance: " + (invoice.getTotalAmount() - invoice.getAmountPaid()));
             }
         } else {
             System.out.println("Appointment has already been fully paid and marked as complete.");
